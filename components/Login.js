@@ -1,11 +1,10 @@
 import React from 'react';
 import {View, Text, StyleSheet} from 'react-native';
-import Login from './components/Login';
 
-const App = () => {
+const Login = () => {
   return (
     <View style={styles.container}>
-      <Login />
+      <Text>Login Screen</Text>
     </View>
   );
 };
@@ -16,4 +15,4 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
   },
 });
-export default App;
+export default Login;
